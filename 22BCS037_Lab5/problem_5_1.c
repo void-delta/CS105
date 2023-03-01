@@ -1,4 +1,4 @@
-//To print numbers type 
+//To print numbers type
 #include<stdio.h>
 int main()
 {
