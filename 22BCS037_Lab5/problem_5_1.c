@@ -11,7 +11,7 @@ int main()
         scanf("%d", &upper);
     }
     while(lower < 1 || upper < 1 || upper < lower);
-
+    
     for (int i = lower; i <= upper; i++)
     {
         if (i == 1)
