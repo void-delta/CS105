@@ -7,7 +7,7 @@ int main()
 
     printf("Enter the string: ");
     gets(str1);
-    printf("Enter the checking string: ");
+    printf("Enter the checking phrase: ");
     gets(str2);
 
     int a = strcheck(str1, str2);
