@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 void insert(char string[], int a, char newstr[], int b, int p);
 int main()
 {

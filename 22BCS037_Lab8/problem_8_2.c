@@ -12,20 +12,16 @@ int main()
     {
         if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u')
         {
-            sumv+=1;
-        }
+            sumv+=1;}
         else if(str[i]==' ')
         {
-            continue;
-        }
+            continue;}
         else if(str[i]=='\0')
         {
-            return 0;
-        }
+            break;}
         else
         {
-            sumc+=1;
-        }
+            sumc+=1;}
     }
 
     printf("Consonants: %d\nVowels: %d", sumc, sumv);

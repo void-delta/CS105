@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <string.h>
+#include<stdio.h>
+#include<string.h>
 int strcheck(char str1[100],char str2[100]);
 int main()
 {
     char str1[100], str2[100];
 
-    printf("Enter the First string: ");
+    printf("Enter the string: ");
     gets(str1);
     printf("Enter the checking string: ");
     gets(str2);
