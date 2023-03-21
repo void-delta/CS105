@@ -24,4 +24,5 @@ int main()
         printf("The Gross Salary of the Employee is %f", gross);
     }
     else printf("not aplicable");
+    return 0;
 }
