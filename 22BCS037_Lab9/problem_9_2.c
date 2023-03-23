@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <string.h>
+#include<stdio.h>
+#include<string.h>
 void revcpy(char *a, char *b);
 void reverse(char *a, char *b);
 int main()
