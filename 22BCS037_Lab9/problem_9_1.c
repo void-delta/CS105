@@ -10,7 +10,6 @@ int main()
     int c=*p1;
     *p1=*p2;
     *p2=c;
-    printf("A:%d\nB:%d", num1, num2);
-    
+    printf("A:%d\nB:%d", num1, num2); 
     return 0;
 }
