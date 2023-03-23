@@ -2,7 +2,7 @@
 struct Employee
 {
     char name[50];
-    unsigned int id;
+    int id;
     char dept[50];
     int salary;
 };
@@ -18,7 +18,7 @@ int main()
         printf("Enter EMPLOYEE NAME\n", i+1);
         scanf("%s", info[i].name);
         printf("Enter 5 digit EMPLOYEE ID\n", i+1);
-        scanf("%d", &info[i].id);
+        scanf("%5d", &info[i].id);
         printf("Enter EMPLOYEE DEPARTMENT\n", i+1);
         scanf("%s", info[i].dept);
         printf("Enter EMPLOYEE SALARY\n", i+1);

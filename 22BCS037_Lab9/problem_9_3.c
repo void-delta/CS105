@@ -1,5 +1,4 @@
 #include<stdio.h>
-void check(int num, int arr[]);
 void check(int num, int arr[])
 {
     int *max=&arr[0];

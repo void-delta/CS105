@@ -7,7 +7,7 @@ struct DayData
 int main()
 {
     int n;
-    printf("Enter the nubmer of days\n");
+    printf("Enter the number of days\n");
     scanf("%d", &n);
     struct DayData info[n];
     int avgtemp=0, avgrain=0;

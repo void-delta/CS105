@@ -4,7 +4,7 @@ void revcpy(char *a, char *b);
 void reverse(char *a, char *b);
 int main()
 {
-    char str[1000], rev[1000], *a, *b;
+    char str[50], rev[50], *a, *b;
     printf("Enter the string\t");
     scanf("%s", str);
     printf("string is %s\n", str);
@@ -15,12 +15,12 @@ int main()
     reverse(a, b);
     printf("%s\n", rev);
 }
-void revcpy(char *a, char *b)
+/*void revcpy(char *a, char *b)
 {
     char c=*a;
     *a=*b;
     *b=c;
-}
+}*/
 void reverse(char *a, char *b)
 {
     int len=strlen(a);
