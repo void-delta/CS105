@@ -3,7 +3,7 @@
 
 int main()
 {
-    char data[1000];
+    char data[200];
     FILE* fp1 = fopen("file1.txt", "w");
     if (fp1 == NULL)
     {
@@ -27,11 +27,11 @@ int main()
         printf("cannot open file2\n");
         return 1;
     }
-    char buffer[1000];
-    while (fscanf(fp1, "%s", buffer) == 1)
+    char buff[200];
+    while (fscanf(fp1, "%s", buff) == 1)
     {
-        strrev(buffer);
-        fprintf(fp2, "%s ", buffer);
+        strrev(buff);
+        fprintf(fp2, "%s ", buff);
     }
     fclose(fp1);
     fclose(fp2);
