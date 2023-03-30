@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int num, key;
+    int num, key, a;
     printf("Enter the size Of Array : ");
     scanf("%d", &num);
     
@@ -22,13 +22,14 @@ int main()
         if(key == arr[j])
         {
             printf("Number is Found at %d\n", j);
+            a=j;
             break;
             printf("Number Is Not Found\n");
         }
     }
-    printf("Enter the INDEX\t");
-    int index;
-    scanf("%d", &index);
-    printf("\nThe number is %d\n", arr[index]);
+    //printf("Enter the INDEX\t");
+    //int index;
+    //scanf("%d", &index);
+    printf("\nThe number is %d at %d index\n", arr[a], a);
     return 0;
 }

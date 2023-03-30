@@ -27,7 +27,6 @@ int main()
                 bool = 0;
                 break;
             }
-            
         }
         if (bool == 1)
         {
