@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-void revcpy(char *a, char *b);
 void reverse(char *a, char *b);
 int main()
 {
@@ -15,12 +14,6 @@ int main()
     reverse(a, b);
     printf("%s\n", rev);
 }
-/*void revcpy(char *a, char *b)
-{
-    char c=*a;
-    *a=*b;
-    *b=c;
-}*/
 void reverse(char *a, char *b)
 {
     int len=strlen(a);

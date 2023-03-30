@@ -15,7 +15,7 @@ int main()
     //bubble sort//
     for(int k=0; k<num; k++)
     {
-        for(int d=0; d<num-1; d++)
+        for(int d=0; d<num; d++)
         {
             if(arr[d]>arr[d+1])
             {

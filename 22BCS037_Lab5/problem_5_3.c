@@ -15,7 +15,7 @@ int main()
         return 0;
     }
     for(;low <= hi;) 
-    {
+     {
         if (arr[mid] == key) 
         {
             printf("%d found at %d index\n", key, mid);
