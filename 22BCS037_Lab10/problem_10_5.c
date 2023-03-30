@@ -12,7 +12,7 @@ int hcf(int a, int b)
 
 int main()
 {
-    int a, b, high, low;;
+    int a, b, high, low;
 
     printf("Enter the Numbers\n");
     scanf("%d %d", &a, &b);

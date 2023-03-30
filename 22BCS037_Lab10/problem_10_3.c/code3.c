@@ -44,14 +44,14 @@ void add_books()
     FILE* fp = fopen("file.txt", "w");
     for(int i = 0; i < n; i++)
     {
-    printf("Enter the name of book %d\n", i + 1);
-    scanf("%*c %[^\n]", dat.title);
-    printf("Enter the author of book %d\n", i + 1);
-    scanf("%*c %[^\n]", dat.author);
-    printf("Enter the year of book %d\n", i + 1);
-    scanf("%d", &dat.year);
-
-    fprintf(fp, "Title: %s\nAuthor: %s\nYear: %d\n", dat.title, dat.author, dat.year);
+        printf("Enter the name of book %d\n", i + 1);
+        scanf("%*c %[^\n]", dat.title);
+        printf("Enter the author of book %d\n", i + 1);
+        scanf("%*c %[^\n]", dat.author);
+        printf("Enter the year of book %d\n", i + 1);
+        scanf("%d", &dat.year);
+    
+        fprintf(fp, "Title: %s\nAuthor: %s\nYear: %d\n", dat.title, dat.author, dat.year);
     }
     fclose(fp);
     return;
