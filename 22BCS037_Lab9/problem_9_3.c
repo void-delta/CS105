@@ -4,7 +4,7 @@ void check(int num, int arr[])
     int *max=&arr[0];
     int *min = &arr[0];
     int a=num;
-    for (int i=0; a--; i++)
+    for (int i=0; a-- ; i++)
     {
         if(*max<*(max+i))
         {
